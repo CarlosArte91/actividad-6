@@ -1,0 +1,14 @@
+.main_button {
+  width: 20vw;
+  background-color: #448aff;
+  color: white;
+  border-radius: 50px;
+  font-size: 1.5vw;
+  padding: 10px 0;
+  border: none;
+}
+
+.main_button:hover {
+  background-color: #82b1ff;
+  cursor: pointer;
+}

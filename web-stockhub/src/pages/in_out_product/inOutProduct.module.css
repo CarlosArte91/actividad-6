@@ -1,0 +1,43 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../../assets/background/inout.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5vw;
+}
+
+.container:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.tapis {
+  width: 85vw;
+  height: 60vh;
+  background-color: #fafafa;
+  border-radius: 5px;
+  margin-top: 110px;
+  padding: 35px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.group {
+  width: 85vw;
+  padding-left: 40px;
+}

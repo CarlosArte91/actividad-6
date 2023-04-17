@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  gap: 30px;
+}
+
+.each_button {
+  background-color: #448aff;
+  color: white;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  padding: 6px 22px;
+  border: none;
+}
+
+.each_button:hover {
+  background-color: #82b1ff;
+  cursor: pointer;
+}
